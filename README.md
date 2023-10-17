@@ -1,2 +1,3 @@
 # texas-urj.github.io
-Texas URJ Website
+<h1> This is the new Texas URJ webpage! </h1>
+More updates are coming soon :)
