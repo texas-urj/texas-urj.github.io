@@ -3,16 +3,16 @@
 @import "tailwindcss/utilities";
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 0, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  --foreground-rgb: 54, 36, 23;
+  --background-start-rgb: 206, 121, 107;
+  --background-end-rgb: 206, 121, 107;
+  }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 206, 121, 107;
+    --background-start-rgb: 54, 36, 23;
+    --background-end-rgb: 54, 36, 23;
   }
 }
 
@@ -25,3 +25,38 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+::selection{
+  color: theme('colors.rose')
+  }
+
+@layer base{
+  h1 {
+  padding-top: 0.5em;
+  text-align: center;
+  font-size: 4em; font-weight: bolder;
+  color: snow;
+  font-family: Ubuntu, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue';
+  /* w-full mb-2 */
+  }
+}
+
+body {
+  color: theme('colors.snow') !important;
+  background-color: theme('colors.rose');
+  font-size: 1em;
+  }
+
+    h3 {
+    margin-left: 15%; margin-right: 15%;
+    padding-left: 4%; padding-right: 4%; padding-top: 0.5em; padding-top: 0.5em;
+    text-align: left;
+    border-left: 2px; border-left-color: theme('colors.rose'); border-left-width: 2px; border-left-style: solid;
+    border-right: 2px; border-right-color: theme('colors.rose'); border-right-width: 2px; border-right-style: solid;
+    font-size: 1em;
+    background-color: theme('colors.LGreen');
+    color: theme('colors.snow');
+    font-family: Ubuntu, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue';
+    }
+  
+
+
