@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1> Sample Header </h1>
-      <h3>Sample text (hi!!!)</h3>
+      <h3>Sample text (hi!!!) Texas URJ</h3>
     </main>
   )
 }
