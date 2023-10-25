@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1> Sample Header </h1>
-      <h3>Sample text</h3>
+      <h3>Sample text (hi!!!)</h3>
     </main>
   )
 }
