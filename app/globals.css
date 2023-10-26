@@ -52,8 +52,8 @@ body {
     margin-left: 15%; margin-right: 15%;
     padding-left: 4%; padding-right: 4%; padding-top: 0.5em; padding-top: 0.5em;
     text-align: left;
-    border-left: 2px; border-left-color: black; border-left-width: 2px; border-left-style: solid;
-    border-right: 2px; border-right-color: black; border-right-width: 2px; border-right-style: solid;
+    border-left: 2px; border-left-color: theme('colors.rose'); border-left-width: 2px; border-left-style: solid;
+    border-right: 2px; border-right-color: theme('colors.rose'); border-right-width: 2px; border-right-style: solid;
     font-size: 1em;
     background-color: theme('colors.LGreen');
     color: snow;
