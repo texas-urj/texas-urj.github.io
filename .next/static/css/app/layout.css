@@ -86,13 +86,21 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
 :root {
-  --foreground: #FFFF;
+  --header: #FFFF;
+  --body: #fcdcbe;
   --background: #cb7204;
   }
 
 body {
-  color: var(--foreground);
+  color: var(--body);
   background: var(--background);
+  text-align: center;
+  font-size: 1em;
+}
+
+h1 {
+  color: var(--header);
+  font-size: 6em;
 }
 ::selection{
   color: #ffbb29;
