@@ -3,29 +3,14 @@
 @import "tailwindcss/utilities";
 
 :root {
-  --foreground-rgb: 54, 36, 23;
-  --background-start-rgb: 206, 121, 107;
-  --background-end-rgb: 206, 121, 200;
+  --foreground: #FFFF;
+  --background: #cb7204;
   }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 206, 121, 107;
-    --background-start-rgb: 54, 36, 23;
-    --background-end-rgb: 54, 36, 23;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--foreground);
+  background: var(--background);
 }
 ::selection{
   color: #ffbb29;
   }
-
