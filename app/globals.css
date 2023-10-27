@@ -13,11 +13,12 @@ body {
   background: var(--background);
   text-align: center;
   font-size: 1em;
+  padding-left: 5%; padding-right: 5%;
 }
 
 h1 {
   color: var(--header);
-  font-size: 6em;
+  font-size: 4em;
 }
 ::selection{
   color: #ffbb29;
