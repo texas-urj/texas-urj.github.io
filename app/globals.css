@@ -5,21 +5,27 @@
 :root {
   --header: #FFFF;
   --body: #fcdcbe;
-  --background: #cb7204;
+  --background: theme(colors.snow);
   }
 
 body {
-  color: var(--body);
   background: var(--background);
-  text-align: center;
-  font-size: 1em;
-  padding-left: 5%; padding-right: 5%;
 }
 
 h1 {
-  color: var(--header);
+  color: theme('colors.DGreen');
+  text-align: center;
   font-size: 4em;
+  padding-left: 5%; padding-right: 5%; padding-bottom: 2%;
 }
+
+p{
+  color: theme('colors.rose');
+  text-align: center;
+  font-size: 1em;
+  padding-left: 5%; padding-right: 5%;padding-bottom: 1%;
+}
+
 ::selection{
   color: #1b2961;
   }
