@@ -1,5 +1,4 @@
 'use client';
-import './globals.css';
 import Navigation from '../components/navbar';
 import {Button, Dropdown, Navbar, Avatar} from 'flowbite-react';
 import Link from 'next/link';

@@ -3,6 +3,7 @@ export const metadata = {
   description: 'The official website of the Texas Undergraduate Research Journal',
 }
 
+import './globals.css';
 export default function RootLayout({
   children,
 }: {
