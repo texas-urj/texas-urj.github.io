@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/apply.tsx", "pages/components/Navbar.tsx"  ],
+, "pages/apply.tsx", "pages/components/Heading.tsx"  ],
   "exclude": [
     "node_modules"
   ]

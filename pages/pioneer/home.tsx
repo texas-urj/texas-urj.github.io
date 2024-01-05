@@ -1,7 +1,7 @@
 //pioneer home
 import React from 'react';
 import ArticleCard from '../components/ArticleCard';
-import Heading from '../components/Navbar';
+import Heading from '../components/Heading';
 
 const PioneerHome = () => {
   return (

@@ -1,7 +1,7 @@
 //article template (Insert ID)
 
 import React from 'react';
-import Heading from '../components/Navbar';
+import Heading from '../components/Heading';
 
 const Article = () => {
   return (

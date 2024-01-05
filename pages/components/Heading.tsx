@@ -14,6 +14,7 @@ export default function Heading() {
   return (
     <Navbar theme={customTheme} fluid rounded className="!bg-umber hover:bg-black">
       <Navbar.Brand href="https://texas-urj.org/">
+        <img src="https://i.imgur.com/HnkxI9n.png" className="h-10 sm:h-9" alt="Flowbite React Logo" />
         <span className="!bg-umber self-center whitespace-nowrap text-2xl font-bold text-umber p-2">TURJ</span>
       </Navbar.Brand>
       <div className="flex md:order-2">

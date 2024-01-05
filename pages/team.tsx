@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from './components/Navbar';
+import Heading from './components/Heading';
 import TeamCard from './components/TeamCard';
 //        <TeamCard title = "" name="" headshot="" bio=""> </TeamCard>
 

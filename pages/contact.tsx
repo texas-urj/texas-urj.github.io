@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from './components/Navbar';
+import Heading from './components/Heading';
 import { Button } from 'flowbite-react';
 import { HiAdjustments, HiCloudDownload, HiUserCircle } from 'react-icons/hi';
 
