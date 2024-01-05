@@ -1,6 +1,6 @@
 //pioneer home
 import React from 'react';
-import ArticleCard from '../components/articleCard';
+import ArticleCard from '../components/ArticleCard';
 
 const PioneerHome = () => {
   return (
