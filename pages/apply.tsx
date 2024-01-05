@@ -7,21 +7,24 @@ const Apply = () => {
     <>
       <Heading></Heading>
       <h1>Apply</h1>
+      <section>
       <p>The application for the Texas Undergraduate Research Journal (URJ) are now open!</p>
       <p>Position appointments will be for the 2023-2024 academic year. The deadline for the application is promptly Friday September 8th, 2023 at 11:59PM. Many of our staff choose to return year after year. There are no explicit requirements to be a part of the URJ; students of all years, majors, and skill sets have joined the URJ and made significant contributions. Please see the descriptions below to determine which position(s) interest you most.</p>
       <p>Meetings will be weekly 6-7 or 7-8pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance is mandatory and required to remain in good standing. Please make sure you can make time to attend these meetings.</p>
       <p>Feel free to contact Sriya Gullapalli at <a className='underline hover:no-underline' href='mailto:editor.in.chief@texasurj.info'>editor.in.chief@texasurj.info</a> with any questions or concerns. We look forward to reading your application.</p>
-      <div className="flex justify-center items-center mx-10">
+      </section>
+      
+      <section className="flex justify-center items-center mx-10">
       <iframe
         title="Apply here:"
         src="https://forms.gle/gYdzbH1WreDG6HPs8"
-        width="100%"
+        width="80%"
         height="400"
         className="self-center mx-10 shadow-lg rounded-md mb-10">
         Loading...
-      </iframe></div>
+      </iframe></section>
 
-      <div className="m-10 !important"> 
+      <section className="w-80"> 
       <Accordion collapseAll>
       <Accordion.Panel>
         <Accordion.Title>Editors</Accordion.Title>
@@ -53,7 +56,7 @@ const Apply = () => {
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>
-    </div>
+    </section>
     </>
   );
 };

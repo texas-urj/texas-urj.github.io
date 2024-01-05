@@ -8,8 +8,8 @@ interface proppity {
     }
     const VolumeCard = ({number, url,image}: proppity) => {
   return (
-    <div className='relative overflow-hidden aspect-w-1 aspect-h-1'>
-    <p>{number}</p>
+    <div className='relative overflow-hidden text-center'>
+    <a href={url} className='text-center'>{number}</a>
     <a
           href={url}  // Assuming you want the images to be clickable links
           target="_blank"  // Opens the link in a new tab
@@ -17,7 +17,9 @@ interface proppity {
         >
           <img
             src={image}
-            className=" w-1/4 h-48 object-cover rounded-md cursor-pointer hover:opacity-75 border-2 border-solid border-black"
+            width={200}
+            height={200}
+            className="object-cover rounded-md cursor-pointer hover:opacity-75 border-2 border-solid border-black"
           />
     </a>
     </div>

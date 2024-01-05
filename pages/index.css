@@ -41,6 +41,11 @@ p {
   font-size:large;
 }
 
+section {
+  margin-left: 6em;margin-right: 6em;
+  margin-bottom: 4em;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
