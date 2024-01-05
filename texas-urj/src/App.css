@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -25,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #d41fcb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 50%;
+  color: blue;
+  background-color: orange;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin: 25%;
+  color: blue;
+  background-color: orange;
+  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

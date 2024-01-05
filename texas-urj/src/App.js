@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import React from "react";
+import "./index.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/index";  // Adjust the import path accordingly
+import Home from "./pages/home";  // Adjust the import path accordingly
 import About from "./pages/about";
 import Blogs from "./pages/blogs";
 import Contact from "./pages/contact";
