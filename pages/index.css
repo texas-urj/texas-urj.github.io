@@ -1,7 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 body {
-  margin: 10%;
-  color: rgb(66, 46, 31);
-  background-color: rgb(249, 237, 214);
+  color: theme('colors.sepia');
+  text-align:center;
+  background-color: theme('colors.cream');
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -9,18 +13,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  color: rgb(20, 11, 2);
+
+@layer base {h1 {
+  margin-left: 1em;margin-right: 1em;
+  margin-bottom: 0.25em;
+  color: theme('colors.umber');
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font:bolder;
+  font-size: 6em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}}
+
+h2{
+  color: theme('colors.umber');
+  font: bold;
+  font-size: 3em;
+  margin-bottom: 0.25em;
+
 }
 
 p {
-  margin: 2%;
+  margin-left: 6em;margin-right: 6em;
+  margin-bottom: 1em;
+  font-size:large;
 }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

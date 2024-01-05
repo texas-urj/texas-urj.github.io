@@ -1,13 +1,17 @@
 //pioneer home
 import React from 'react';
 import ArticleCard from '../components/ArticleCard';
+import Heading from '../components/Navbar';
 
 const PioneerHome = () => {
   return (
-    <div>
+    <>
+      <Heading></Heading>
       <h1>The Pioneer</h1>
-      <ArticleCard thumbnail='https://www.idausa.org/assets/components/phpthumbof/cache/blogmain-group-of-rabbits-2056157612-0922-source-shutterstock.abe80ebac597b762e0e0fbf0e85555c8.jpg' title='I like how fat this bunny looks'/>
-    </div>
+      <div className='flex justify-center'>
+      <ArticleCard route = "/pioneer/spotify-playlists" thumbnail='https://www.hiclipart.com/free-transparent-background-png-clipart-jmeve' title='Spotify Playlists: A Novel Form of Self-Expression'/>
+      </div>
+    </>
   );
 };
 

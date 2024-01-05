@@ -1,12 +1,15 @@
-//article template
+//article template (Insert ID)
+
 import React from 'react';
+import Heading from '../components/Navbar';
 
 const Article = () => {
   return (
-    <div>
-      <h1>Article Title</h1>
+    <>
+      <Heading></Heading>
+      <h2>Article Title</h2>
       <p>Article text.</p>
-    </div>
+    </>
   );
 };
 

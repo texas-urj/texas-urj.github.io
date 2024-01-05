@@ -7,11 +7,12 @@ import Image from 'next/image';
 interface proppity {
     thumbnail: string;
     title: string;
+    route: string;
     }
-    const ArticleCard = ({thumbnail, title}: proppity) => {
+    const ArticleCard = ({thumbnail, title, route}: proppity) => {
           return (
-            <Card className="max-w-sm" imgSrc={thumbnail} horizontal>
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <Card href= {route} className="max-w-sm" imgSrc={thumbnail} horizontal>
+      <h5 className="text-2xl font-bold text-gray-900 dark:text-white">
         {title}
       </h5>
     </Card>
