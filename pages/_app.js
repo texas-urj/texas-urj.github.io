@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         {/* Add the link to your custom icon */}
         <link rel="icon" href="https://i.imgur.com/vxuO1n6.jpg" />
         {/* You can also specify a title for your page */}
-        <title>Your Next.js App Title</title>
+        <title>Texas URJ</title>
       </Head>
       <Component {...pageProps} />
     </>
