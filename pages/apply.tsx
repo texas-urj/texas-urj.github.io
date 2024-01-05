@@ -1,14 +1,14 @@
 import React from 'react';
 import Heading from './components/Navbar';
 
-const About = () => {
+const Apply = () => {
   return (
     <>
       <Heading></Heading>
-      <h1>About Us</h1>
+      <h1>Apply</h1>
       {/* Add your about page content here */}
     </>
   );
 };
 
-export default About;
+export default Apply;
