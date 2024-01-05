@@ -24,6 +24,7 @@ export default function Heading() {
         <Navbar.Link className="text-xl text-umber font-semibold" href="/about">About</Navbar.Link>
         <Navbar.Link className="text-xl text-umber font-semibold" href="/pioneer/home">Pioneer</Navbar.Link>
         <Navbar.Link className="text-xl text-umber font-semibold" href="/volumes">Volumes</Navbar.Link>
+        <Navbar.Link className="text-xl text-umber font-semibold" href="/submissions">Submissions</Navbar.Link>
         <Navbar.Link className="text-xl text-umber font-semibold" href="/team">Team</Navbar.Link>
         <Navbar.Link className="text-xl text-umber font-semibold" href="/contact">Contact</Navbar.Link>
       </Navbar.Collapse>

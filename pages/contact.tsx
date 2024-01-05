@@ -28,8 +28,9 @@ const Contact = () => {
         src="https://docs.google.com/forms/d/e/1FAIpQLSfBhv9ZNUDjqCVv-srE-lDG93te7YfAVax4N8OxYwEINwwM3g/viewform"
         width="640"
         height="800"
-        className="shadow-lg rounded-md"/>
-      </div>
+        className="shadow-lg rounded-md">
+        Loading...
+      </iframe></div>
     </>
   );
 };

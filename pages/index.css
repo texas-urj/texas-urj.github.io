@@ -14,7 +14,7 @@ body {
 }
 
 
-@layer base {h1 {
+h1 {
   margin-left: 1em;margin-right: 1em;
   margin-bottom: 0.25em;
   color: theme('colors.umber');
@@ -25,7 +25,7 @@ body {
   font-size: 6em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}}
+}
 
 h2{
   color: theme('colors.umber');
