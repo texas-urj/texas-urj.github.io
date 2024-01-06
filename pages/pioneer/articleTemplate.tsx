@@ -13,7 +13,7 @@ const Article = () => {
       {/* Adds the title to the top of the page */}
       <h2>Article Title</h2>
       {/* Adds a paragraph of text. Add a separate <p></p> for each paragraph */}
-      <p>Article text.</p>
+      <p><a href="" className="underline text-black"></a>Article text.</p>
     </>
   );
 };
