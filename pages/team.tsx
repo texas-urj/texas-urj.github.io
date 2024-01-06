@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from './components/Heading';
 import TeamCard from './components/TeamCard';
+import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from 'flowbite-react';
 //        <TeamCard title = "" name="" headshot="" bio=""> </TeamCard>
 
 const Team = () => {
@@ -8,7 +9,11 @@ const Team = () => {
     <>
       <Heading></Heading>
       <h1>Our Team</h1>
-      <h2>Executive Staff</h2>
+      
+      <section>
+      <Accordion collapseAll>
+      <AccordionPanel><AccordionTitle className='text-center'>Executive Staff</AccordionTitle>
+      <AccordionContent>
       <div className='flex flex-col items-center mb-4'>
         <TeamCard title = "Editor-in-Chief" name="Sriya Gullapalli" 
         headshot="https://i.imgur.com/mtd03bN.jpg" bio="Sriya is a fourth-year Neuroscience major who is actively involved in research in the FRI Biobricks stream and the Fonken Lab. Her hobbies include photography, traveling, and exploring Austin. Contact her at editor.in.chief@texasurj.info"> </TeamCard>
@@ -21,12 +26,14 @@ const Team = () => {
         <TeamCard title = "Financial Director" name="Andrew Kulkarni" 
         headshot="https://i.imgur.com/D8VX4zq.jpg" bio="Andrew is a second-year biology major. He is interested in the administrative side of healthcare and learning more about factors that impede effective patient care on a structural level. In his free time, he enjoys hiking, playing basketball, investing in stocks, and trying new restaurants in Austin. Contact him at andrewskulkarni@gmail.com"> </TeamCard>
         </div>
-      <h2>Staff</h2>
-      <h3 className='underline font-semibold text-xl'>Assistant Editors</h3>
-      <div className='flex flex-col items-center mb-4'>
-        <TeamCard title = "" name="Megan George" 
+        </AccordionContent></AccordionPanel>
+      <Accordion.Panel>
+        <Accordion.Title>Assistant Editors</Accordion.Title>
+        <Accordion.Content>
+      <div className='grid grid-rows-2 gap-4 justify-center'>
+      <TeamCard title = "" name="Megan George" 
         headshot="https://i.imgur.com/YGE37JM.jpg" bio="Megan is a fourth-year neuroscience major with a business minor. She involved as a undergraduate research assistant in the Beer Lab and Harris Lab. Outside of her commitments, she enjoys spending time with her cat and reading romance novels. "> </TeamCard>
-        <TeamCard title = "" name="Sraavya Chintalapati" 
+      <TeamCard title = "" name="Sraavya Chintalapati" 
         headshot="https://i.imgur.com/P2cvJb4.jpg" bio="Sraavya is a fourth-year Anthropology major."> </TeamCard>
         <TeamCard title = "" name="Marco Keller" 
         headshot="https://i.imgur.com/D3Q4m9D.jpg" bio="Marco is a third-year Biology major who is actively involved in his FRI lab (Plant Pathways) and is doing research in the Johnson Lab. In his free time he plays chess, tennis, and rides trails on his bike."> </TeamCard>
@@ -60,23 +67,28 @@ const Team = () => {
         headshot="https://i.imgur.com/RswiNZ9.jpg" bio="Isha is a fourth-year Neuroscience major."> </TeamCard>
         <TeamCard title = "" name="Sifallah Bouyadjera" 
         headshot="https://i.imgur.com/gmE9Ph1.jpg" bio="Sifallah is a second-year Neuroscience major."> </TeamCard>
-        </div>
-      <h3 className='underline font-semibold text-xl'>Assistant Directors of Campaigns</h3>
-      <div className='flex flex-col items-center mb-4'>
+        </div></Accordion.Content>
+        </Accordion.Panel>
+      <AccordionPanel>
+      <AccordionTitle>Assistant Directors of Campaigns</AccordionTitle>
+      <AccordionContent><div className='flex flex-col items-center mb-4'>
         <TeamCard title = "" name="Aditya Venkataraman" 
         headshot="https://i.imgur.com/rYrFlHi.jpg" bio="Aditya is a first-year Biology major who researches animal behaviors and metabolism. His hobbies include bird watching, playing tennis, and watching TV shows."> </TeamCard>
         <TeamCard title = "" name="Sravya Gullapalli" 
         headshot="https://i.imgur.com/C54SNGR.jpg" bio="Sravya Gullapalli is a first-year biology major who is also actively involved in the Natural Sciences Council and the Biology Scholars Program. Her hobbies include drawing, bullet journalling, listening to music, and doing 1000 piece puzzles."> </TeamCard>
-        </div>
-      <h3 className='underline font-semibold text-xl'>Assistant Directors of Communications</h3>
-      <div className='flex flex-col items-center mb-4'>
+        </div></AccordionContent></AccordionPanel>
+        <AccordionPanel>
+        <AccordionTitle>Assistant Directors of Communications</AccordionTitle>
+        <AccordionContent><div className='flex flex-col items-center mb-4'>
         <TeamCard title = "" name="Naomi Ichiriu" 
         headshot="https://i.imgur.com/Ypv4hCk.png" bio="Naomi is a first-year Informatics major who is interested in prelaw, specifically intellectual property law. She has an interest in human-centered data science, social justice informatics, and international relations. In her free time, she loves attending concerts, creating art, playing the cello, and exploring Austin."> </TeamCard>
         <TeamCard title = "" name="Zayneh Razzak" 
         headshot="https://i.imgur.com/NAJrin4.jpg" bio="Zayneh is a first-year advertising major who has interests in business, media analytics, and fashion. In her free time, she enjoys singing, exploring new coffee shops, and designing clothing."> </TeamCard>
         <TeamCard title = "" name="Aarushi Anand" 
         headshot="" bio="Aarushi is a freshmen Biomedical Engineering major, whose research interests lie in pharmaceuticals, drug delivery, and stem cells. In her free time, Aarushi enjoys dancing, swimming, and hiking."> </TeamCard>
-        </div>
+        </div></AccordionContent>
+        </AccordionPanel>
+        </Accordion></section>
     </>
   );
 };
