@@ -1,10 +1,10 @@
 import React from 'react';
-import Heading from './components/Heading';
+import Navigation from './components/Navigation';
 
 const Submissions = () => {
   return (
     <>
-      <Heading></Heading>
+      <Navigation></Navigation>
       <h1>Submissions</h1>
       <p>Applications for the 2023 - 2024 academic year are now open. All submissions will be due <a className='font-bold underline'>Monday, January 15th, 2024 by 11:59pm promptly</a>. Note that we will be reviewing manuscripts on a <a className='font-bold'>rolling basis</a> this year. However, despite this new change, we will still be giving <a className='font-bold'>equal consideration</a> to those applicants who submit later on in the submission cycle. Please review the manuscript criteria and common FAQs below to guide your writing/submission process.</p>
       <p>Please direct all questions to editor.in.chief@texasurj.info.</p>
@@ -23,7 +23,7 @@ const Submissions = () => {
         <p className='font-bold underline text-umber text-xl mb-1'>Originality</p>
             <p>Research should be a significant addition to the accumulated knowledge within your discipline, which implies it must offer something new.</p>
         <p className='font-bold underline text-umber text-xl mb-1'>Organization</p>
-            <p>Paper should be organized in a logical and coherent way. Titles, headings, subheadings, etc. should be clear. The basic organization of a research paper (abstract, introduction, methods, etc.) should be organized in a logical way.</p>
+            <p>Paper should be organized in a logical and coherent way. Titles, Navigations, subNavigations, etc. should be clear. The basic organization of a research paper (abstract, introduction, methods, etc.) should be organized in a logical way.</p>
         <p className='font-bold underline text-umber text-xl mb-1'>Significance</p>
             <p>The significance of a research paper refers to the contribution(s) to and impact of the study on a research field. The significance also signals who benefits from the research findings and how. </p>
         <p className='font-bold underline text-umber text-xl mb-1'>Quality</p>

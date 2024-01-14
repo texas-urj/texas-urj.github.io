@@ -1,12 +1,12 @@
 import React from 'react';
-import Heading from './components/Heading';
+import Navigation from './components/Navigation';
 import VolumeCard from './components/VolumeCard';
 // <VolumeCard number = 'Volume ' image = '' url = ''></VolumeCard>
 
 const Volumes = () => {
   return (
     <>
-    <Heading></Heading>
+    <Navigation></Navigation>
     <h1>Volumes</h1>
     <section className="grid grid-cols-4 gap-3 p-4">
     <VolumeCard number = 'Volume 20' 

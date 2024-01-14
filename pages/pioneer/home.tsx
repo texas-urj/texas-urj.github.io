@@ -1,12 +1,12 @@
 //pioneer home
 import React from 'react';
 import ArticleCard from '../components/ArticleCard';
-import Heading from '../components/Heading';
+import Navigation from '../components/Navigation';
 
 const PioneerHome = () => {
   return (
     <>
-      <Heading></Heading>
+      <Navigation></Navigation>
       <h1>The Pioneer</h1>
       <section className='grid grid-cols-2 gap-4'>
       <div className='flex justify-center'>

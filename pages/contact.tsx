@@ -1,12 +1,12 @@
 import React from 'react';
-import Heading from './components/Heading';
+import Navigation from './components/Navigation';
 import { Button } from 'flowbite-react';
 import { HiAdjustments, HiCloudDownload, HiUserCircle } from 'react-icons/hi';
 
 const Contact = () => {
   return (
     <>
-      <Heading></Heading>
+      <Navigation></Navigation>
       <h1>Contact Us</h1>
       <div className="flex flex-col items-center h-screen">
       <Button.Group className='mb-6'>

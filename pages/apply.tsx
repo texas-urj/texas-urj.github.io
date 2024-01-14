@@ -1,11 +1,11 @@
 import React from 'react';
-import Heading from './components/Heading';
+import Navigation from './components/Navigation';
 import { Accordion } from 'flowbite-react';
 
 const Apply = () => {
   return (
     <>
-      <Heading></Heading>
+      <Navigation></Navigation>
       <h1>Apply</h1>
       <section>
       <p>The application for the Texas Undergraduate Research Journal (URJ) are now open!</p>

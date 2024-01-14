@@ -1,12 +1,12 @@
 //spotify-playlists
 
 import React from 'react';
-import Heading from '../components/Heading';
+import Navigation from '../components/Navigation';
 
 const Article = () => {
   return (
     <>
-      <Heading></Heading>
+      <Navigation></Navigation>
       <h2>Spotify Playlists: A Novel Form of Self-Expression</h2>
       <p>The expiration of a licensing deal between Spotify and Kakao Entertainment in February of 2021 led to the <a href='https://variety.com/2021/digital/news/spotify-k-pop-kakao-licensing-dispute-1234927727/' className='underline text-black'>removal of hundreds of Korean artists’ music worldwide</a>. Instantly, thousands of fans lost not only the music they love but also many of their self-curated Spotify playlists. I personally remember the feeling of scrolling through my 71+ playlists only for them to be completely desolate: a mass of grayed-out files. All those hours spent personalizing my playlists to fit my needs at a moment’s notice—gone. As I reached out to others, there was a consensus about the empty feeling that settled. We were left expressionless.</p>
       <p>As <a href="https://www.bc.edu/content/dam/files/centers/boisi/pdf/s091/Welcome_address_to_freshman_at_Boston_Conservatory.pdf" className='underline text-black'>Dr. Karl Paulnack states</a> in his welcome address to the incoming Boston Conservatory freshman, “Music is one of the ways in which we say, ‘I am alive, and my life has meaning’.” No one can write out emotion; it is physically impossible to put into words something you feel. Music, on the other hand, reveals a range of emotions unique to everyone. Today, numerous streaming platforms, such as Spotify and Apple Music, allow their listeners to not only save the music that is meaningful to them but also provide them with opportunities to <a href="https://support.spotify.com/us/article/create-playlists/" className='underline text-black'>organize their music into self-produced playlists</a>. This allows listeners to arrange their music, regardless of album or artist, in any order based on their emotions, moods, and feelings. <a href="https://journals.sagepub.com/doi/full/10.1177/2056305119847514" className='underline text-black'>A mood can be defined</a> as a state of mind in which you think about everything in context of the present feeling. Thus, playlists serve as a vector of self-expression—a way of making sense of how we feel in a particular moment. Furthermore, the <a href="https://artists.spotify.com/blog/share-new-music-for-playlist-consideration" className='underline text-black'>Spotify algorithm takes advantage</a> of the connection between mood and music to recommend songs and artists to their listeners based on the titles and songs found in their playlists. Spotify states that, “it’s important to give us as much information about the track as possible—genre, mood, and other data points all help us make decisions,” to curate perfect recommendations for their listeners.</p>

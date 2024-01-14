@@ -1,14 +1,15 @@
 import React from 'react';
-import Heading from './components/Heading';
+import Navigation from './components/Navigation';
 import TeamCard from './components/TeamCard';
 import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from 'flowbite-react';
+import Header from './components/Header';
 //        <TeamCard title = "" name="" headshot="" bio=""> </TeamCard>
 
-const Team = () => {
+const Staff = () => {
   return (
     <>
-      <Heading></Heading>
-      <h1>Our Team</h1>
+      <Navigation></Navigation>
+      <Header title='Our Staff'/>
       
       <section>
       <Accordion collapseAll>
@@ -93,4 +94,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Staff;

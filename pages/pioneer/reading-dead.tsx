@@ -2,14 +2,14 @@
 
 //the below commands import styles that tell the computer how to read the code
 import React from 'react';
-import Heading from '../components/Heading';
+import Navigation from '../components/Navigation';
 
 //the code within the return() builds a page
 const Article = () => {
   return (
     <>
       {/* Adds the Navbar to the top of the page */}
-      <Heading></Heading> 
+      <Navigation></Navigation> 
       {/* Adds the title to the top of the page */}
       <h2>Is Reading Dead?</h2>
       {/* Adds a paragraph of text. Add a separate <p></p> for each paragraph */}
