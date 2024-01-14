@@ -85,7 +85,7 @@ const Staff = () => {
         <TeamCard title = "" name="Zayneh Razzak" 
         headshot="https://i.imgur.com/NAJrin4.jpg" bio="Zayneh is a first-year advertising major who has interests in business, media analytics, and fashion. In her free time, she enjoys singing, exploring new coffee shops, and designing clothing."> </TeamCard>
         <TeamCard title = "" name="Aarushi Anand" 
-        headshot="" bio="Aarushi is a freshmen Biomedical Engineering major, whose research interests lie in pharmaceuticals, drug delivery, and stem cells. In her free time, Aarushi enjoys dancing, swimming, and hiking."> </TeamCard>
+        headshot="https://i.imgur.com/phH0auO.jpg" bio="Aarushi is a freshmen Biomedical Engineering major, whose research interests lie in pharmaceuticals, drug delivery, and stem cells. In her free time, Aarushi enjoys dancing, swimming, and hiking."> </TeamCard>
         </div></AccordionContent>
         </AccordionPanel>
         </Accordion></section>
