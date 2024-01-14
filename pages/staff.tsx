@@ -9,8 +9,7 @@ const Staff = () => {
   return (
     <>
       <Navigation></Navigation>
-      <Header title='Our Staff'/>
-      
+      {/* <Header title='Our Staff'/> */}
       <section>
       <Accordion collapseAll>
       <AccordionPanel><AccordionTitle className='text-center'>Executive Staff</AccordionTitle>
