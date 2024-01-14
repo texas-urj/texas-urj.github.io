@@ -16,8 +16,7 @@ const Staff = () => {
       <AccordionPanel><AccordionTitle className='text-center'>Executive Staff</AccordionTitle>
       <AccordionContent>
       <div className='flex flex-col items-center mb-4'>
-        <TeamCard title = "Editor-in-Chief" name="Sriya Gullapalli" 
-        headshot="https://i.imgur.com/mtd03bN.jpg" bio="Sriya is a fourth-year Neuroscience major who is actively involved in research in the FRI Biobricks stream and the Fonken Lab. Her hobbies include photography, traveling, and exploring Austin. Contact her at editor.in.chief@texasurj.info"> </TeamCard>
+        <TeamCard title = "Editor-in-Chief" name="Sriya Gullapalli" headshot="https://i.imgur.com/mtd03bN.jpg" bio="Sriya is a fourth-year Neuroscience major who is actively involved in research in the FRI Biobricks stream and the Fonken Lab. Her hobbies include photography, traveling, and exploring Austin. Contact her at editor.in.chief@texasurj.info"> </TeamCard>
         <TeamCard title = "Executive Director of Campaigns and Communications" name="Shreya Nallaparaju" 
         headshot="https://i.imgur.com/L4Onqj0.jpg" bio="Shreya is a fourth-year Biology major whose current research interests lie in computational science and biotechnology. In her free time, she enjoys nature walks/hikes, reading dystopian novels, and trying new restaurants. Contact her at shreya.nallaparaju@utexas.edu"> </TeamCard>
         <TeamCard title = "Executive Editor" name="Rachel Muralitharan" 
