@@ -10,7 +10,7 @@ const Apply = () => {
       <section>
       {/* <p>The application for the Texas Undergraduate Research Journal (URJ) are currently closed. Feel free to read the information below and stay tuned for information on our next application cycle.</p> */}
       <p>Position appointments will be for the 2023-2024 academic year. The deadline to apply is promptly Monday, February 12th, 2024 at 11:59PM. No applications will be accepted beyond the specified date. Interview invites will be sent the week following the specified application deadline. There are no explicit requirements to be a part of the URJ; students of all years, majors, and skill sets have joined the URJ and made significant contributions. We are currently interviewing for Assistant Directors of Finance. </p>
-      <p>Meetings will be weekly 7-8pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.</p>
+      <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.</p>
       <p>Feel free to contact Sriya Gullapalli at <a className='underline hover:no-underline' href='mailto:editor.in.chief@texasurj.info'>editor.in.chief@texasurj.info</a> with any questions or concerns. We look forward to reading your application.</p>
       </section>
       
