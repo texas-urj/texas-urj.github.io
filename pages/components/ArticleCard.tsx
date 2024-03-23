@@ -11,7 +11,7 @@ interface proppity {
     }
     const ArticleCard = ({thumbnail, title, route}: proppity) => {
           return (
-            <Card href= {route} className="max-w-sm" imgSrc={thumbnail}>
+            <Card href= {route} className="max-w-sm mb-10" imgSrc={thumbnail}>
       <h5 className="text-2xl font-bold text-gray-900 dark:text-white">
         {title}
       </h5>

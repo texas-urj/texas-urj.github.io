@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import { Button } from 'flowbite-react';
+import Footer from './components/Footer';
 import { HiAdjustments, HiCloudDownload, HiUserCircle } from 'react-icons/hi';
 
 const Contact = () => {
@@ -28,9 +29,11 @@ const Contact = () => {
         src="https://docs.google.com/forms/d/e/1FAIpQLSfBhv9ZNUDjqCVv-srE-lDG93te7YfAVax4N8OxYwEINwwM3g/viewform"
         width="640"
         height="800"
-        className="shadow-lg rounded-md">
+        className="shadow-lg rounded-md mb-10">
         Loading...
-      </iframe></div>
+      </iframe>
+      <Footer title="Texas URJ"/>
+      </div>
     </>
   );
 };
