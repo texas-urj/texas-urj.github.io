@@ -16,9 +16,9 @@ export default {
       xl: '1440px',
     },
     colors: {
-      'burntO': '#cc5500',
-      'sepia': '#704214',
-      'cream': '#FFFFED',
-      'umber': '#231605',
+      'copper': '#603026',
+      'sepia': '#C17239',
+      'ivory': '#F2F5EA',
+      'umber': '#38302E',
     },}
 };
