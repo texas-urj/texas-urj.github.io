@@ -7,10 +7,10 @@ const Submissions = () => {
     <>
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Submissions</h1>
-      <p>Applications for the 2023 - 2024 academic year are now open. All submissions will be due <a className='font-bold underline'>Monday, January 15th, 2024 by 11:59pm promptly</a>. Note that we will be reviewing manuscripts on a <a className='font-bold'>rolling basis</a> this year. However, despite this new change, we will still be giving <a className='font-bold'>equal consideration</a> to those applicants who submit later on in the submission cycle. Please review the manuscript criteria and common FAQs below to guide your writing/submission process.</p>
+      <p>Applications for the 2023 - 2024 academic year are no longer open. Please check back for the updated application deadline for next semester. However, in the meantime, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process.</p>
       <p>Please direct all questions to editor.in.chief@texasurj.info.</p>
       <p>On the behalf of our Editing Team, we look forward to reading your manuscript!</p>
-      <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_71HMCA415vYfDam' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
+      {/* <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_71HMCA415vYfDam' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
       <div className="flex justify-center items-center">
       <iframe
         title="Apply here:"
@@ -19,7 +19,7 @@ const Submissions = () => {
         height="400"
         className="shadow-lg rounded-md mb-10">
         Loading...
-      </iframe></div>
+      </iframe></div> */}
       <h2>Manuscript Criteria </h2>
         <p className='font-bold underline text-umber text-xl mb-1'>Originality</p>
             <p>Research should be a significant addition to the accumulated knowledge within your discipline, which implies it must offer something new.</p>
