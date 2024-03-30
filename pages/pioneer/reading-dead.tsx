@@ -9,7 +9,7 @@ const Article = () => {
   return (
     <>
       {/* Adds the Navbar to the top of the page */}
-      <Navigation></Navigation> 
+      <Navigation name='Texas URJ'></Navigation>     
       {/* Adds the title to the top of the page */}
       <h2>Is Reading Dead?</h2>
       {/* Adds a paragraph of text. Add a separate <p></p> for each paragraph */}

@@ -4,7 +4,7 @@ import Navigation from './components/Navigation';
 const Submissions = () => {
   return (
     <>
-      <Navigation></Navigation>
+      <Navigation name='Texas URJ'></Navigation>      
       <h1>Submissions</h1>
       <p>Applications for the 2023 - 2024 academic year are now open. All submissions will be due <a className='font-bold underline'>Monday, January 15th, 2024 by 11:59pm promptly</a>. Note that we will be reviewing manuscripts on a <a className='font-bold'>rolling basis</a> this year. However, despite this new change, we will still be giving <a className='font-bold'>equal consideration</a> to those applicants who submit later on in the submission cycle. Please review the manuscript criteria and common FAQs below to guide your writing/submission process.</p>
       <p>Please direct all questions to editor.in.chief@texasurj.info.</p>

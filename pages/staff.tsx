@@ -8,8 +8,8 @@ import Header from './components/Header';
 const Staff = () => {
   return (
     <>
-      <Navigation></Navigation>
-      {/* <Header title='Our Staff'/> */}
+      <Navigation name='Texas URJ'></Navigation>      
+            {/* <Header title='Our Staff'/> */}
       <h1>Staff</h1>
       <section>
       <Accordion collapseAll>

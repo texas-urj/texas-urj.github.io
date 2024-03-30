@@ -6,7 +6,7 @@ import VolumeCard from './components/VolumeCard';
 const Volumes = () => {
   return (
     <>
-    <Navigation></Navigation>
+    <Navigation name='Texas URJ'></Navigation>
     <h1>Volumes</h1>
     <section className="grid grid-cols-4 gap-3 p-4">
     <VolumeCard number = 'Volume 20' 

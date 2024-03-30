@@ -5,7 +5,7 @@ import { Accordion } from 'flowbite-react';
 const Apply = () => {
   return (
     <>
-      <Navigation></Navigation>
+      <Navigation name='Texas URJ'></Navigation>      
       <h1>Apply</h1>
       <section>
       <p>The application for the Texas Undergraduate Research Journal (URJ) are currently closed. Feel free to read the information below and stay tuned for information on our next application cycle.</p>

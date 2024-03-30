@@ -7,7 +7,7 @@ import { HiAdjustments, HiCloudDownload, HiUserCircle } from 'react-icons/hi';
 const Contact = () => {
   return (
     <>
-      <Navigation></Navigation>
+      <Navigation name='Texas URJ'></Navigation>           
       <h1>Contact Us</h1>
       <div className="flex flex-col items-center h-screen">
       <Button.Group className='mb-6'>

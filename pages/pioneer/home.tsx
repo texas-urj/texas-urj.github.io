@@ -6,9 +6,9 @@ import Navigation from '../components/Navigation';
 const PioneerHome = () => {
   return (
     <>
-      <Navigation></Navigation>
-      <h1>The Pioneer</h1>
-      <section className="grid grid-cols-4 gap-6 p-6 sm:grid-cols-1">
+      <Navigation name='Texas URJ'></Navigation>      
+      <h1 className='pt-10'>The Pioneer</h1>
+      <section className="grid grid-cols-4 gap-6 pb-10 mb-10 sm:grid-cols-1">
       <div className='flex justify-center'>
       <ArticleCard route = "/pioneer/spotify-playlists" 
       thumbnail='https://i.imgur.com/FL3D8FM.png'
