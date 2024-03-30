@@ -129,6 +129,24 @@ return (
         </Dropdown>
         <Navbar.Toggle />
       </div>
+      <div className="flex">
+        <Dropdown
+          arrowIcon={true}
+          inline
+          label={<a className="md:hover:text-slate-300 text-xl font-semibold">Events</a>}
+        >
+          <Dropdown.Item href="/events" className="font-bold">
+            All Events
+          </Dropdown.Item>
+          <Dropdown.Item href="/events/socials">
+            Socials
+          </Dropdown.Item>
+          <Dropdown.Item href="/events/meetings">
+            Meetings
+          </Dropdown.Item>
+          <Dropdown.Item href="/events/academic">
+            Academic
+          </Dropdown.Item></Dropdown></div>
       <Navbar.Link href="/submissions" className= "text-black text-xl md:hover:text-slate-300 font-semibold">
           Submissions
         </Navbar.Link>
