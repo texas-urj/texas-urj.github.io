@@ -16,9 +16,10 @@ export default {
       xl: '1440px',
     },
     colors: {
-      'copper': '#603026',
-      'sepia': '#C17239',
+      'redumber': '#603026',
+      'copper': '#C17239',
+      'wolfgrey': '#D6DBD2',
       'ivory': '#F2F5EA',
-      'redumber': '#38302E',
+      'charcoal': '#38302E',
     },}
 };
