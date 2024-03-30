@@ -135,7 +135,7 @@ return (
           inline
           label={<a className="md:hover:text-slate-300 text-xl font-semibold">Events</a>}
         >
-          <Dropdown.Item href="/events" className="font-bold">
+          <Dropdown.Item href="/events/home" className="font-bold">
             All Events
           </Dropdown.Item>
           <Dropdown.Item href="/events/socials">
