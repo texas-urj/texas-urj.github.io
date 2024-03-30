@@ -9,7 +9,8 @@ const EventsHome = () => {
       <Navigation name='Texas URJ'></Navigation>      
       <h1 className='pt-10'>Events</h1>
       <section className="grid grid-cols-4 gap-6 pb-10 mb-10 sm:grid-cols-1">
-      <ArticleCard thumbnail='https://i.imgur.com/WddsjhK.png' title='Socials' route='/events/socials'></ArticleCard></section>
+      <ArticleCard thumbnail='https://i.imgur.com/WddsjhK.png' title='Socials' route='/events/socials'></ArticleCard>
+      <ArticleCard thumbnail='https://i.imgur.com/k0G8wwN.jpg' title='General Meetings' route='/events/generalmeetings'></ArticleCard></section>
     </>
   );
 };
