@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import { Accordion } from 'flowbite-react';
-
+import Footer from './components/Footer';
 const Apply = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const Apply = () => {
         Loading...
       </iframe></section>
 
-      <section className="w-80"> 
+      <section className="w-80 mb-10"> 
       <Accordion collapseAll>
       <Accordion.Panel>
         <Accordion.Title>Editors</Accordion.Title>
@@ -57,6 +57,7 @@ const Apply = () => {
       </Accordion.Panel>
     </Accordion>
     </section>
+    <Footer title="Texas URJ"/>
     </>
   );
 };

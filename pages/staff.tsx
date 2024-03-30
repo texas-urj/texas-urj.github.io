@@ -4,6 +4,7 @@ import TeamCard from './components/TeamCard';
 import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from 'flowbite-react';
 import Header from './components/Header';
 //        <TeamCard title = "" name="" headshot="" bio=""> </TeamCard>
+import Footer from './components/Footer';
 
 const Staff = () => {
   return (
@@ -11,7 +12,7 @@ const Staff = () => {
       <Navigation name='Texas URJ'></Navigation>      
             {/* <Header title='Our Staff'/> */}
       <h1>Staff</h1>
-      <section>
+      <section className="mb-10">
       <Accordion collapseAll>
       <AccordionPanel><AccordionTitle className='text-center'>Executive Staff</AccordionTitle>
       <AccordionContent>
@@ -89,6 +90,7 @@ const Staff = () => {
         </div></AccordionContent>
         </AccordionPanel>
         </Accordion></section>
+        <Footer title="Texas URJ"/>
     </>
   );
 };

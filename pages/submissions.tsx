@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const Submissions = () => {
   return (
@@ -50,11 +51,11 @@ const Submissions = () => {
         <p className="faq-answer">A: We target the original research work that is conducted here at the University of Texas Austin. By publishing the works of college students, we strive to showcase the work of college students to the UT community and beyond.</p>
       </div>
 
-      <div className="mb-6 pb-4">
+      <div className="mb-6 pb-4 mb-10">
         <h3 className="text-xl font-semibold mb-2">Q: I have just graduated from college, can I submit?</h3>
         <p className="faq-answer">A: Yes, you are able to submit! Applications open in the Summer and seniors who have graduated the past Spring prior to the Summer to when submissions open will be able to submit.</p>
       </div>
-      
+      <Footer title="Texas URJ"/>
     </>
   );
 };
