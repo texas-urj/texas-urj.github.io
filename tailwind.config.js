@@ -19,6 +19,6 @@ export default {
       'copper': '#603026',
       'sepia': '#C17239',
       'ivory': '#F2F5EA',
-      'umber': '#38302E',
+      'redumber': '#38302E',
     },}
 };
