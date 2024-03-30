@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 body {
-  color: theme('colors.copper');
+  color: theme('colors.charcoal');
   text-align:center;
   background-color: theme('colors.ivory');
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2{
-  color: theme('colors.copper');
+  color: theme('colors.redumber');
   font: bold;
   font-size: 4vw;
   margin-bottom: 0.25vh;
