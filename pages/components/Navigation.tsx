@@ -142,10 +142,10 @@ return (
             Socials
           </Dropdown.Item>
           <Dropdown.Item href="/events/meetings">
-            Meetings
+            General Meetings
           </Dropdown.Item>
           <Dropdown.Item href="/events/academic">
-            Academic
+            Academic Events
           </Dropdown.Item></Dropdown></div>
       <Navbar.Link href="/submissions" className= "text-black text-xl md:hover:text-slate-300 font-semibold">
           Submissions
