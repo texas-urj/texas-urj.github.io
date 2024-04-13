@@ -2,7 +2,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const pageTemplate = () => {
+const networking = () => {
   return (
     <>
     <Navigation name='Texas URJ'></Navigation>
@@ -19,4 +19,4 @@ const pageTemplate = () => {
   )
 }
 
-export default pageTemplate
+export default networking
