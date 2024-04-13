@@ -5,7 +5,7 @@ const pageTemplate = () => {
   return (
     <>
     <Navigation name='Texas URJ'></Navigation>
-    <h1>Title</h1>
+    <h1>General Meetings</h1>
     <p>General meetings are a great opportunity to work hard and form connections with other Texas URJ members! See our meeting slides to get a better understanding of what we do each week.</p>
     <h2 className='mb-4 p-4'>Spring 2024 Meeting Slides</h2>
     <div className="place-items-center grid grid-auto grid-cols-4">
