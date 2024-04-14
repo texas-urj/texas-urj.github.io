@@ -11,7 +11,7 @@ const penToPublication = () => {
     <div className="grid grid-cols-4 gap-2">
     <img className='mx-4 my-10 w-full h-auto col-span-3' src="https://i.imgur.com/lpL6ikW.jpg"></img>
     <p className = "">Pictured: Panelists Jamie Palmer, Andrea Nam, Hyo-Mi (Mia) Pak, and Kate Davis.</p>
-    <img className='mx-4 my-10 w-1/4 h-auto col-start-4' src="https://i.imgur.com/Q3GsWaI.png"></img>
+    <img className='mx-4 my-10 w-1/4 h-auto col-start-4' src="https://i.imgur.com/WddsjhK.png"></img>
     </div>
     
     </>
