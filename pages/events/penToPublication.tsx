@@ -6,7 +6,7 @@ const penToPublication = () => {
   return (
     <>
     <Navigation name='Texas URJ'></Navigation>
-    <h1>Title</h1>
+    <h1>Pen to Publication</h1>
     <h2 className='mb-4 p-4'>The Texas Undergraduate Research Journal organized a panel discussion focused on undergraduate and early graduate publications. Graduate students shared their insights and experiences with joining research groups on campus and getting involved with higher education research. </h2>
     <div className="grid grid-cols-4 gap-2">
     <img className='mx-4 my-10 w-full h-auto col-span-3' src="https://i.imgur.com/lpL6ikW.jpg"></img>
