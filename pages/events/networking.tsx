@@ -10,9 +10,9 @@ const networking = () => {
     <h2 className='mb-4 p-4'>Every fall, TURJ hosts a Networking Event called Connect the Dots with URJ, wherein graduate students share their experiences with research and pursuing a PhD. Discussing their journey towards academia, students get to make connections with graduate students and gain insight along with advice on pursuing research as a career and how to get involved as an undergraduate.</h2>
     <div className="grid grid-cols-4 place-items-center gap-4">
     <img className='mx-4 my-10 border-solid border-2 border-wolfgray w-1/4 h-auto' src="https://i.redd.it/g33ecad6sd861.jpg"></img>
-    <p className = "">Sample text/quote here.</p>
+    <p className = "">Students gather around graduate student to learn about their research in anthropology.</p>
     <img className='mx-4 my-10 border-solid border-2 border-wolfgray w-1/4 h-auto' src="https://i.imgur.com/Dr5VADw.jpg"></img>
-    <p className = "">Sample text/quote here.</p>
+    <p className = "">Our guest speakers from Connect the Dots with URJ in Fall 2024.</p>
     </div>
     
     </>
