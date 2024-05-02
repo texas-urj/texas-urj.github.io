@@ -9,6 +9,9 @@ const Volumes = () => {
     <Navigation name='Texas URJ'></Navigation>
     <h1>Volumes</h1>
     <section className="grid grid-cols-4 gap-3 p-4">
+    <VolumeCard number = 'Volume 22' 
+    image = 'https://i.imgur.com/aUEtxfP.png' 
+    url='https://drive.google.com/file/d/1xO2I72jE20RnfdNunQ1P5srRHWt1dtlk/view?usp=sharing'></VolumeCard>
     <VolumeCard number = 'Volume 20' 
     image = 'https://i.imgur.com/Z6TRH5F.png' 
     url='https://drive.google.com/file/d/11AmiM_Kyg3KX6uqhDEvrSI2ejmim5kpU/view?usp=sharing'></VolumeCard>
