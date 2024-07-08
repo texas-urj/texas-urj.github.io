@@ -8,15 +8,15 @@ const Apply = () => {
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Apply</h1>
       <section>
-      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! Feel free to read the information below and stay tuned for more information on how to apply.</p>
-      <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.</p>
-      <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:editor.in.chief@texasurj.info'>editor.in.chief@texasurj.info</a> with any questions or concerns. We look forward to reading your application.</p>
+      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! Feel free to read the information below and fill out the application below by September 7th to apply.</p>
+      <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
+      <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
       
       <section className="flex justify-center items-center mx-10">
       <iframe
         title="Apply here:"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfRBmmaW6P5i5NcJDyW_xTw5_a4zg5BrtEjd-QAm7ZltCE7eA/viewform"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdcbBt3JmLxLnZfi_UjnbBw_V1dOzr6IthJ1WoWtGG9ebtf5Q/viewform?usp=sf_link"
         width="80%"
         height="400"
         className="self-center mx-10 shadow-lg rounded-md mb-10">
