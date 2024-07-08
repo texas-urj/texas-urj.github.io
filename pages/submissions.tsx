@@ -7,7 +7,7 @@ const Submissions = () => {
     <>
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Submissions</h1>
-      <p>Applications for the 2024 - 2025 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process.      </p>
+      <p>Applications for the 2024 - 2025 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 13, 2025.</p>
       <p>Please direct all questions to <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a></p>
       <p>On the behalf of our Editing Team, we look forward to reading your manuscript!</p>
       <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_3r3tYtL49zOLNgW' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
