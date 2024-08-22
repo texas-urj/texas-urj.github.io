@@ -12,7 +12,11 @@ const Apply = () => {
       <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
       <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
-      
+      <section>
+      <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/edit?usp=sharing" width="380" height="200" className='p-4'></iframe>
+
+
+      </section>
       <section className="flex justify-center items-center mx-10">
       <iframe
         title="Apply here:"
