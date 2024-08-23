@@ -12,11 +12,12 @@ const Apply = () => {
       <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
       <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
-      <section>
-      <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/edit?usp=sharing" width="380" height="200" className='p-4'></iframe>
-
-
+      <h2 className='mb-4 p-4'>More information here:</h2>
+      <section className="flex justify-center items-center mx-10">
+      <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/embed?start=false&loop=false&delayms=3000" width="960" height="569" allowFullScreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </section>
+
+      <h2 className='mb-4 p-4'>Apply here:</h2>
       <section className="flex justify-center items-center mx-10">
       <iframe
         title="Apply here:"
@@ -27,6 +28,7 @@ const Apply = () => {
         Loading...
       </iframe></section>
 
+      {/* <h2 className='mb-4 p-4'>Roles:</h2>
       <section className="w-80 mb-10"> 
       <Accordion collapseAll>
       <Accordion.Panel>
@@ -59,7 +61,7 @@ const Apply = () => {
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>
-    </section>
+    </section> */}
     <Footer title="Texas URJ"/>
     </>
   );
