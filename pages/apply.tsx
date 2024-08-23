@@ -14,7 +14,7 @@ const Apply = () => {
       </section>
       <h2 className='mb-4 p-4'>More information here:</h2>
       <section className="flex justify-center items-center mx-10">
-      <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/embed?start=false&loop=false&delayms=3000" width="960" height="569" allowFullScreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/embed?start=false&loop=false&delayms=3000" width="960" height="569"></iframe>
       </section>
 
       <h2 className='mb-4 p-4'>Apply here:</h2>
