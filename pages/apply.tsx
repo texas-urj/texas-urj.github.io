@@ -8,7 +8,7 @@ const Apply = () => {
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Apply</h1>
       <section>
-      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! Feel free to read the information below and fill out the application below by September 9th to apply.</p>
+      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! Feel free to read the information below and fill out the application below by September 12th to apply.</p>
       <p>Meetings will be weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
       <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
