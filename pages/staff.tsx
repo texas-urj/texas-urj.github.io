@@ -28,7 +28,7 @@ const Staff = () => {
         <TeamCard title = "Executive Editor" name="Sifallah Bouyadjera" 
         headshot="https://i.imgur.com/gmE9Ph1.jpg" bio="Sifallah is a third-year Neuroscience major."> </TeamCard>
         <TeamCard title = "Director of Communications" name="Naomi Ichiriu" 
-        headshot="https://imgur.com/PwmBfpU" bio="Naomi is a second-year Informatics major who is interested in prelaw, specifically intellectual property law. She has an interest in human-centered data science, social justice informatics, and international relations. In her free time, she loves attending concerts, creating art, playing the cello, and exploring Austin."> </TeamCard>
+        headshot="https://i.imgur.com/PwmBfpU.png" bio="Naomi is a second-year Informatics major who is interested in prelaw, specifically intellectual property law. She has an interest in human-centered data science, social justice informatics, and international relations. In her free time, she loves attending concerts, creating art, playing the cello, and exploring Austin."> </TeamCard>
         <TeamCard title = "Director of Campaigns" name="Sravya Gullapalli" 
         headshot="https://i.imgur.com/C54SNGR.jpg" bio="Sravya Gullapalli is a second-year biology major who is also actively involved in the Natural Sciences Council and the Biology Scholars Program. Her hobbies include drawing, bullet journalling, listening to music, and doing 1000 piece puzzles."> </TeamCard>
         </div>
@@ -38,13 +38,13 @@ const Staff = () => {
         <Accordion.Content>
       <div className='grid grid-rows-2 gap-4 justify-center'>
         <TeamCard title = "" name="Ishan Arora" 
-        headshot="https://imgur.com/XcR7eRC" bio="Ishan is a first-year business major on the premed track whose current research interests lie in oncology and medical imaging. In his spare time he enjoys classical literature, healthcare investments, and Chess."> </TeamCard>
+        headshot="https://i.imgur.com/XcR7eRC.png" bio="Ishan is a first-year business major on the premed track whose current research interests lie in oncology and medical imaging. In his spare time he enjoys classical literature, healthcare investments, and Chess."> </TeamCard>
         <TeamCard title = "" name="Dhroov Pathare" 
-        headshot="https://imgur.com/Yj8wlBQ" bio="Dhroov is a first-year dual-majoring in Neuroscience and Plan II Honors. His current research interests lie in nanotechnology and medical oncology. In his free time, he enjoys going to concerts, mountain biking, traveling, and exploring new places to hang out around Austin."> </TeamCard>
+        headshot="https://i.imgur.com/Yj8wlBQ.png" bio="Dhroov is a first-year dual-majoring in Neuroscience and Plan II Honors. His current research interests lie in nanotechnology and medical oncology. In his free time, he enjoys going to concerts, mountain biking, traveling, and exploring new places to hang out around Austin."> </TeamCard>
         <TeamCard title = "" name="Yashica Sadam" 
         headshot="https://i.imgur.com/VCnMOMM.jpg" bio="Yashica is a second-year Health & Society major who enjoys reading, listening to music, and playing with her dog. She is currently actively involved in Partners in Health Engage and Texas Brain Exercise Initiative. "> </TeamCard>
         <TeamCard title = "" name="Komal Chilukuri" 
-        headshot="https://imgur.com/94noFmI" bio="Komal is a second-year Public Health major with a minor in ASL and Business. She is getting her EMT license, and in her free time she likes reading, playing guitar, and listening to music. "> </TeamCard>
+        headshot="https://i.imgur.com/94noFmI.png" bio="Komal is a second-year Public Health major with a minor in ASL and Business. She is getting her EMT license, and in her free time she likes reading, playing guitar, and listening to music. "> </TeamCard>
         <TeamCard title = "" name="Dhruv Nistala" 
         headshot="https://i.imgur.com/9c3Xc9G.jpg" bio="Dhruv is a third-year double majoring in computer science and mathematics. He currently is a research assistant in Dell Medical School focused on using using Machine Learning to preemptively detect signs of T1 Diabetes in the Pancreas. This will be his third year in the Texas URJ. His hobbies include traveling, hiking and watching movies."> </TeamCard>
         <TeamCard title = "" name="Sriya Dommaraju" 
@@ -62,13 +62,13 @@ const Staff = () => {
         <TeamCard title = "" name="Aditya Venkataraman" 
         headshot="https://i.imgur.com/rYrFlHi.jpg" bio="Aditya is a first-year Biology major who researches animal behaviors and metabolism. His hobbies include bird watching, playing tennis, and watching TV shows."> </TeamCard>
         <TeamCard title = "" name="Saisha Salpekar" 
-        headshot="https://imgur.com/Ael944P" bio="Saisha loves research! After law school, she wants to be a professor and teach diplomacy!"> </TeamCard>
+        headshot="https://i.imgur.com/Ael944P.png" bio="Saisha loves research! After law school, she wants to be a professor and teach diplomacy!"> </TeamCard>
         </div></AccordionContent></AccordionPanel>
         <AccordionPanel>
         <AccordionTitle>Assistant Directors of Communications</AccordionTitle>
         <AccordionContent><div className='flex flex-col items-center mb-4'>
         <TeamCard title = "" name="Sneha Chandak" 
-        headshot="https://imgur.com/R7eqgKq" bio="Sneha is a third-year Biology major who is also perusing the Scientific Computation and Data Science certificate. She is also a writer with HerCampus and involved in the FRI lab Microbe Hackers and the Havird lab. In her free time, she enjoys baking, crocheting, and other habits a grandma may enjoy."> </TeamCard>
+        headshot="https://i.imgur.com/R7eqgKq.png" bio="Sneha is a third-year Biology major who is also perusing the Scientific Computation and Data Science certificate. She is also a writer with HerCampus and involved in the FRI lab Microbe Hackers and the Havird lab. In her free time, she enjoys baking, crocheting, and other habits a grandma may enjoy."> </TeamCard>
         
         </div></AccordionContent>
         </AccordionPanel>
