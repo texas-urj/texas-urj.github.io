@@ -32,7 +32,7 @@ h2{
   padding-top: 2vw;
   color: theme('colors.redumber');
   font: bold;
-  font-size: 4vw;
+  font-size: 3vw;
   margin-bottom: 0.25vh;
   text-align: center;
 
@@ -41,7 +41,7 @@ h2{
 p {
   margin-left: 12vw;margin-right: 12vw;
   margin-bottom: 1vh;
-  font-size:1.75vw;
+  font-size:1.5vw;
   text-align:left;
 }
 
