@@ -10,7 +10,7 @@ const Apply = () => {
       <section>
       <p>The application for the Texas Undergraduate Research Journal (URJ) is now closed. Check back in next semester for a new application!</p>
       <p>Meetings are weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
-      <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
+      <p>Feel free to contact Rachel Muralitharan at <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
       <h2 className='mb-4 p-4'>More information here:</h2>
       <section className="flex justify-center items-center mx-10">
