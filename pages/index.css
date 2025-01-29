@@ -3,9 +3,9 @@
 @import "tailwindcss/utilities";
 
 body {
-  color: theme('colors.charcoal');
+  color: theme('colors.rblack');
   text-align:center;
-  background-color: theme('colors.ivory');
+  background-color: theme('colors.honeydew');
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,7 +18,7 @@ h1 {
   margin-left: 2vw;margin-right: 2vw;
   padding-top: 2vw;
   margin-bottom: 0.25em;
-  color: theme('colors.redumber');
+  color: theme('colors.mummy');
   font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -30,7 +30,7 @@ h1 {
 
 h2{
   padding-top: 2vw;
-  color: theme('colors.redumber');
+  color: theme('colors.mummy');
   font: bold;
   font-size: 3vw;
   margin-bottom: 0.25vh;
