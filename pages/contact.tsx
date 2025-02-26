@@ -20,7 +20,7 @@ const Contact = () => {
         Facebook
       </Button>
       <Button color="green" className='px-4' href='https://www.google.com/url?q=https%3A%2F%2Flinktr.ee%2Ftexasurj&sa=D&sntz=1&usg=AOvVaw3yJrzmXCYrPklogz9BvCvZ'>
-        <img src='https://cdn.icon-icons.com/icons2/3912/PNG/512/linktree_logo_icon_247832.png' className="mx-3 h-20 w-20" />
+        <img src='https://icon-icons.com/icons2/3912/PNG/512/linktree_logo_icon_247832.png' className="mx-3 h-20 w-20" />
         Linktree
       </Button>
     </Button.Group>

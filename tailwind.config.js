@@ -21,5 +21,11 @@ export default {
       'wolfgrey': '#D6DBD2',
       'ivory': '#F2F5EA',
       'charcoal': '#38302E',
+      'honeydew':'#DFF3E4',
+      'rblack': "#0D1F22",
+      'melon':"#FCBFB7",
+      'mummy':"#56282D",
+      'Dgreen':"#157145"
+
     },}
 };

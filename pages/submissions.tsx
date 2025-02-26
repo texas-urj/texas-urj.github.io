@@ -7,8 +7,10 @@ const Submissions = () => {
     <>
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Submissions</h1>
-      <p>Applications for the 2024 - 2025 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 13, 2025.</p>
-      <p>Please direct all questions to <a className='underline hover:no-underline' href='mailto:rachel.murali@utexas.edu'>rachel.murali@utexas.edu</a></p>
+      <p>Submissions for the 2024-25 academic year are now closed. Keep an eye out in November of 2025 to submit a manuscript for the 2025-26 school year.</p>
+      <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p>
+      {/* <p>Applications for the 2024 - 2025 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 31, 2025.</p> 
+      <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p>
       <p>On the behalf of our Editing Team, we look forward to reading your manuscript!</p>
       <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_3r3tYtL49zOLNgW' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
       <div className="flex justify-center items-center">
@@ -19,17 +21,20 @@ const Submissions = () => {
         height="400"
         className="shadow-lg rounded-md mb-10">
         Loading...
-      </iframe></div>
+      </iframe></div>*/}
       <h2>Manuscript Criteria </h2>
         <p className='font-bold underline text-umber text-xl mb-1'>Originality</p>
             <p>Research should be a significant addition to the accumulated knowledge within your discipline, which implies it must offer something new.</p>
         <p className='font-bold underline text-umber text-xl mb-1'>Organization</p>
-            <p>Paper should be organized in a logical and coherent way. Titles, Navigations, subNavigations, etc. should be clear. The basic organization of a research paper (abstract, introduction, methods, etc.) should be organized in a logical way.</p>
+            <p>Paper should be organized in a logical and coherent way. Titles, Navigations, subNavigations, etc. should be clear. The basic organization of a research paper (abstract, introduction, methods, etc.) should be organized in a logical way. Please limit your paper to 20 pages or less, not including references.</p>
         <p className='font-bold underline text-umber text-xl mb-1'>Significance</p>
             <p>The significance of a research paper refers to the contribution(s) to and impact of the study on a research field. The significance also signals who benefits from the research findings and how. </p>
         <p className='font-bold underline text-umber text-xl mb-1'>Quality</p>
             <p>The paper should display an in-depth discussion and elaboration found in all sections of the paper. Minimal spelling or grammatical should be present. The paper should demonstrate profound analysis and high quality of writing. Analysis and statements are integrated into the author's own voice and insights. The author should display synthesis of ideas in and between sections and the overall flow of the paper should be coherent.</p>       
-      
+        <h2 className='mt-10'>Timeline after submission:</h2>
+        <div className='px-6'>
+            <img className='px-6' src="https://i.imgur.com/oqF1ocb.png"></img></div>
+
       <h2 className='mt-10'>Frequently Asked Questions</h2>
       <div className="mb-4">
         <h3 className="text-xl font-semibold mb-2">Q: What types of submissions does Texas URJ accept?</h3>

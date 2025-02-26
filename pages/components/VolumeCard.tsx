@@ -8,6 +8,7 @@ interface proppity {
     }
     const VolumeCard = ({number, url,image}: proppity) => {
   return (
+    <div className='flex justify-center mx-4'>
     <div className='relative overflow-hidden text-center'>
     <a href={url} className='text-center'>{number}</a>
     <a
@@ -22,7 +23,7 @@ interface proppity {
             className="object-cover rounded-md cursor-pointer hover:opacity-75 border-2 border-solid border-black"
           />
     </a>
-    </div>
+    </div></div>
   );
 }
 

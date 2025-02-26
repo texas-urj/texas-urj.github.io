@@ -18,6 +18,7 @@ interface proppity {
       imgAlt="No Image available"
       imgSrc={headshot}
       horizontal
+    
     >
       <h5 className="text-2xl font-bold tracking-tight text-sepia dark:text-white">
         {name}
