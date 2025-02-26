@@ -66,7 +66,7 @@ const Staff = () => {
         <AccordionTitle>Assistant Directors of Communications</AccordionTitle>
         <AccordionContent><div className='flex flex-col items-center mb-4'>
         <TeamCard title = "" name="Sneha Chandak" 
-        headshot="" bio="Sneha is a third-year Biology major who is also perusing the Scientific Computation and Data Science certificate. She is also a writer with HerCampus and involved in the FRI lab Microbe Hackers and the Havird lab. In her free time, she enjoys baking, crocheting, and other habits a grandparent may enjoy."> </TeamCard>
+        headshot="" bio="Sneha is a third-year Biology major who is also perusing the Scientific Computation and Data Science certificate. She is also a writer with HerCampus and involved in the FRI lab Microbe Hackers and the Havird lab. In her free time, she enjoys baking, crocheting, and other habits a grandparent may enjoy. She is from Dallas."> </TeamCard>
         
         </div></AccordionContent>
         </AccordionPanel>
