@@ -12,7 +12,7 @@ const Apply = () => {
       <p>Meetings are weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
       <p>Feel free to contact Sid Shah at <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
-      <h2 className='mb-4 p-4'>More information here:</h2>
+      <h2 className='mb-4 p-4'>More information is available here:</h2>
       <section className="flex justify-center items-center mx-10">
       <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/embed?start=false&loop=false&delayms=3000" width="960" height="569"></iframe>
       </section>
@@ -66,5 +66,4 @@ const Apply = () => {
     </>
   );
 };
-
 export default Apply;
