@@ -8,7 +8,7 @@ const Apply = () => {
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Apply</h1>
       <section>
-      <p>The application for the Texas Undergraduate Research Journal (URJ) is now closed. Check back in next semester for a new application!</p>
+      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! See the information below to apply.</p>
       <p>Meetings are weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.      </p>
       <p>Feel free to contact Sid Shah at <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a>  with any questions or concerns. We look forward to reading your application.</p>
       </section>
@@ -21,14 +21,14 @@ const Apply = () => {
       <section className="flex justify-center items-center mx-10">
       <iframe
         title="Apply here:"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdcbBt3JmLxLnZfi_UjnbBw_V1dOzr6IthJ1WoWtGG9ebtf5Q/viewform?usp=sf_link"
+        src="https://forms.gle/jzvzPTWpnNmWcCMV8"
         width="80%"
         height="400"
         className="self-center mx-10 shadow-lg rounded-md mb-10">
         Loading...
       </iframe></section>
 
-      {/* <h2 className='mb-4 p-4'>Roles:</h2>
+      <h2 className='mb-4 p-4'>Roles:</h2>
       <section className="w-80 mb-10"> 
       <Accordion collapseAll>
       <Accordion.Panel>
@@ -61,7 +61,7 @@ const Apply = () => {
         </Accordion.Content>
       </Accordion.Panel>
     </Accordion>
-    </section> */}
+    </section> 
     <Footer title="Texas URJ"/>
     </>
   );
