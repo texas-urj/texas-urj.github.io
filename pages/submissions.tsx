@@ -7,9 +7,9 @@ const Submissions = () => {
     <>
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Submissions</h1>
-      {/* <p>Submissions for the 2024-25 academic year are now closed. Keep an eye out in November of 2025 to submit a manuscript for the 2025-26 school year.</p> */}
+      {/* <p>Submissions for the 2025-26 academic year are now closed. Keep an eye out in November of 2025 to submit a manuscript for the 2025-26 school year.</p> */}
       {/* <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p> */}
-      <p>Applications for the 2024-2025 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 31, 2025.</p>  */}
+      <p>Applications for the 2025-2026 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 31, 2026.</p> 
       <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p>
       <p>On the behalf of our Editing Team, we look forward to reading your manuscript!</p>
       <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_0rB7jnHiX4QNroO' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
