@@ -31,9 +31,9 @@ const Submissions = () => {
             <p>The significance of a research paper refers to the contribution(s) to and impact of the study on a research field. The significance also signals who benefits from the research findings and how. </p>
         <p className='font-bold underline text-umber text-xl mb-1'>Quality</p>
             <p>The paper should display an in-depth discussion and elaboration found in all sections of the paper. Minimal spelling or grammatical should be present. The paper should demonstrate profound analysis and high quality of writing. Analysis and statements are integrated into the author's own voice and insights. The author should display synthesis of ideas in and between sections and the overall flow of the paper should be coherent.</p>       
-        <h2 className='mt-10'>Timeline after submission:</h2>
-        <div className='px-6'>
-            <img className='px-6' src="https://i.imgur.com/oqF1ocb.png"></img></div>
+        {/* <h2 className='mt-10'>Timeline after submission:</h2> */}
+        {/* <div className='px-6'> */}
+            {/* <img className='px-6' src="https://i.imgur.com/oqF1ocb.png"></img></div> */}
 
       <h2 className='mt-10'>Frequently Asked Questions</h2>
       <div className="mb-4">
