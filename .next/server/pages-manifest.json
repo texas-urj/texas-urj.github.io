@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/events/home": "pages/events/home.js",
-  "/events/meetings": "pages/events/meetings.js",
-  "/events/pageTemplate": "pages/events/pageTemplate.js"
+  "/": "pages/index.js",
+  "/submissions": "pages/submissions.js"
 }

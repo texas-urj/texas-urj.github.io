@@ -9,14 +9,14 @@ const Submissions = () => {
       <h1>Submissions</h1>
       {/* <p>Submissions for the 2025-26 academic year are now closed. Keep an eye out in November of 2025 to submit a manuscript for the 2025-26 school year.</p> */}
       {/* <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p> */}
-      <p>Applications for the 2025-2026 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due January 31, 2026.</p> 
+      <p>Applications for the 2025-2026 academic year are now open! As you prepare your application, feel free to review the manuscript criteria and common FAQs below to guide your writing/submission process. All submissions are due <strong>February 2, 2026.</strong></p> 
       <p>Please direct all questions to <a className='underline hover:no-underline' href="mailto:sifallah.bouyadjera@utexas.edu">sifallah.bouyadjera@utexas.edu</a> and cc <a className='underline hover:no-underline' href='mailto:sidshah@utexas.edu'>sidshah@utexas.edu</a></p>
       <p>On the behalf of our Editing Team, we look forward to reading your manuscript!</p>
-      <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_0rB7jnHiX4QNroO' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
+      <h2> <a href='https://utexas.qualtrics.com/jfe/form/SV_24CR2SipJji3pfo' className='text-orange-800 hover:underline'>Click here to apply</a></h2>
       <div className="flex justify-center items-center">
       <iframe
         title="Apply here:"
-        src="https://utexas.qualtrics.com/jfe/form/SV_0rB7jnHiX4QNroO"
+        src="https://utexas.qualtrics.com/jfe/form/SV_24CR2SipJji3pfo"
         width="50%"
         height="400"
         className="shadow-lg rounded-md mb-10">
