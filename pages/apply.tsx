@@ -18,16 +18,7 @@ const Apply = () => {
       </section>
 
      
-      [<h2 className='mb-4 p-4'>Apply here:</h2>]::
-      [<section className="flex justify-center items-center mx-10">]::
-      [<iframe]::
-        [title="Apply here:"]::
-        [src="https://forms.gle/jzvzPTWpnNmWcCMV8"]::
-        [width="80%"]::
-        [height="400"]::
-        [className="self-center mx-10 shadow-lg rounded-md mb-10">]::
-        [Loading...]::
-      [</iframe></section>]::
+   
       
 
       <h2 className='mb-4 p-4'>Roles:</h2>
