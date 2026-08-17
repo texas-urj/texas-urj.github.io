@@ -17,6 +17,7 @@ const Apply = () => {
       <iframe src="https://docs.google.com/presentation/d/1fReO1VTmvcYTVS9hIyl-4CO4RB-4PvB5GHiyOiJ7ops/embed?start=false&loop=false&delayms=3000" width="960" height="569"></iframe>
       </section>
 
+      <!---
       <h2 className='mb-4 p-4'>Apply here:</h2>
       <section className="flex justify-center items-center mx-10">
       <iframe
@@ -27,6 +28,7 @@ const Apply = () => {
         className="self-center mx-10 shadow-lg rounded-md mb-10">
         Loading...
       </iframe></section>
+        -->
 
       <h2 className='mb-4 p-4'>Roles:</h2>
       <section className="w-80 mb-10"> 
