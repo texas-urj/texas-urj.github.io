@@ -20,16 +20,14 @@ const Apply = () => {
       <h2 className='mb-4 p-4'>Apply here:</h2>
       <section className="flex justify-center items-center mx-10">
       <iframe
-        title="Apply here:"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfKKAY_YVhZ3ymT6HHrL8v9VeQBunTY9Wxa2o9mR339TODFwA/viewform"
-        width="80%"
-        height="400"
-        className="self-center mx-10 shadow-lg rounded-md mb-10"
-        Loading...
+      title="Apply here:"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSfKKAY_YVhZ3ymT6HHrL8v9VeQBunTY9Wxa2o9mR339TODFwA/viewform"
+      width="80%"
+      height="400"
+      className="self-center mx-10 shadow-lg rounded-md mb-10"
+      Loading...
       </iframe></section>
-
-
- 
+    
       <h2 className='mb-4 p-4'>Roles:</h2>
       <section className="w-80 mb-10"> 
       <Accordion collapseAll>
