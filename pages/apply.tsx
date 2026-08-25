@@ -8,7 +8,7 @@ const Apply = () => {
       <Navigation name='Texas URJ'></Navigation>      
       <h1>Apply</h1>
       <section>
-      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! The deadline is September 18th, 2026 at 11:59pm. We look forward to reading your application! This is the application link: https://forms.gle/ZQGJQoUsWnML1Hoo8. </p>
+      <p>The application for the Texas Undergraduate Research Journal (URJ) is now open! The deadline is September 18th, 2026 at 11:59pm. We look forward to reading your application!</p>
       <p>Meetings are weekly 7-8 pm on Tuesday evenings throughout the fall and spring semesters. Meeting attendance and meaningful contributions are required to remain in good standing. Please make sure you can make time to attend these meetings.</p>
       <p>Feel free to contact our Editors in Chiefs, Dhroov Pathare at <a className='underline hover:no-underline' href='mailto:dp36455@my.utexas.edu'>dp36455@my.utexas.edu</a> or Samuel Sliter-Hays at <a className='underline hover:no-underline' href='mailto:sms8389@my.utexas.edu'>sms8389@my.utexas.edu</a>, with any questions or concerns. We look forward to reading your application.</p>
       </section>
